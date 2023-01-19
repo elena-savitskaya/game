@@ -71,7 +71,7 @@ function finishGame() {
 // создаю переменную circle, добавляю класс и помещаю в борд
 function createRandomCircle() {
     let circle = document.createElement('div')
-    const size = getRandomNumber(10, 60)
+    const size = getRandomNumber(20, 60)
 
     // coздаю переменные, чтобы менять положение кружка на странице
     // но сначала получу размер поля
